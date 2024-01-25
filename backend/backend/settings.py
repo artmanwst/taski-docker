@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -10,7 +10,6 @@ DEBUG = True
 
 # settings.py
 
-ALLOWED_HOSTS = [, 'taski11.ddns.net', ]
 ALLOWED_HOSTS = ['84.201.179.185', '127.0.0.1', 'localhost', 'alextaski333.ddns.net']
 
 
